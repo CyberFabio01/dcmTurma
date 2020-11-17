@@ -51,3 +51,21 @@ div.foto {
             display: flex;
             align-items: center;
          }
+
+/* pontos de quebra ou Media Queries */
+
+@media( max-width:1200px )
+{
+    li { width: 45%; }
+}
+
+@media( max-width:900px )
+{
+    li { width: 90% ; }
+}
+
+@media( max-width:500px )
+{
+   li {flex-direction: column;} 
+   .numero{text-align: center;}
+}
